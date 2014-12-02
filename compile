@@ -1,0 +1,2 @@
+gcc -c -Wall main.c input.c implement.c algorithm.c set.c colour_allocation.c spilling.c
+gcc main.o input.o implement.o set.o algorithm.o colour_allocation.o spilling.o -o output
